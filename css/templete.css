@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+	height: 100%;
+	color: white;
+	width: 100%;
+}
+
+/* Nav */
+
+nav {
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+	padding: 10px;
+	list-style-type: none;
+}
+.header-fixed-bar{
+    background: rgba(0,0,0,0.5);
+    box-shadow: 1px 5px 18px #111;
+    width: 100%;
+    height: 6em;
+    z-index: 2;
+	position: fixed;
+}
+
+/* Logo */
+
+.header-logo{
+	position: absolute;
+	top: -12px;
+	left: 0;
+	width: 200px;
+	margin-right: 20px;
+}
+
+/* Header, background-image */
+
+.header-background{
+	background-size: cover;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+/* Products */
+
+.products-section{
+	background: #207020;
+	padding: 80px 20px;
+}
+
+.product-container{
+	margin: 5px;
+	padding: 10px 15px;
+	text-align: center;
+	border: .5px solid white;
+	border-radius: 1px;
+}
+/* Product section */
+
+.product-section{
+    top: 100%;
+    background: #205520;
+    width: 100%;
+    padding: 20px;
+    height: 75%;
+}
+
+
+.services-datas{
+	background: url("../images/night-road-background.jpg");
+	background-size: 100% auto;
+	height: 500px;
+	background-position: center bottom;
+}
+.services-datas h1{
+	z-index: 10;
+}
