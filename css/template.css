@@ -61,23 +61,17 @@ ul, li{
 	border: .5px solid white;
 	border-radius: 1px;
 }
-/* Product section */
 
-.product-section{
-    top: 100%;
-    background: #205520;
-    width: 100%;
-    padding: 20px;
-    height: 75%;
-}
-
+/* Services */
 
 .services-datas{
 	background: url("../images/night-road-background.jpg");
 	background-size: 100% auto;
-	height: 500px;
+	height: 600px;
 	background-position: center bottom;
 }
-.services-datas h1{
-	z-index: 10;
+
+.datas-container{
+	z-index: 5;
 }
+

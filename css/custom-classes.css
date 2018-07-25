@@ -25,9 +25,9 @@
 	margin-right: -50%;
 }
 .horizontal-centered{
-	position: relative;
 	left: 50%;
 	transform: translate(-50%,0);
+	margin-bottom: -50%;
 }
 .vertical-centered{
 	position: relative;
@@ -841,16 +841,16 @@
 
 /* Text shadow */
 .text-s-1{
-	text-shadow: 1px 1px;
+	text-shadow: 1px 1px black;
 }
 .text-s-12{
-	text-shadow: 1px 2px;
+	text-shadow: 1px 2px black;
 }
 .text-s-21{
-	text-shadow: 2px 1px;
+	text-shadow: 2px 1px black;
 }
 .text-s-2{
-	text-shadow: 2px 2px;
+	text-shadow: 2px 2px black;
 }
 
 /* Text transform */
@@ -1051,12 +1051,39 @@
 	width: 100px;
 }
 
-.overlay-01:after{
+.overlay-01:after, .overlay-02:after, .overlay-03:after, .overlay-04:after, .overlay-05:after, .overlay-06:after, .overlay-07:after, .overlay-08:after, .overlay-09:after{
 	content: '\A';
 	position: absolute;
 	width: 100%; height: 100%;
 	top: 0; left: 0;
-	background: rgba(0,0,0,0.5);
 	opacity: 1;
 	z-index: 2;
+}
+
+.overlay-01:after{
+	background: rgba(0,0,0,0.1);
+}
+.overlay-02:after{
+	background: rgba(0,0,0,0.2);
+}
+.overlay-03:after{
+	background: rgba(0,0,0,0.3);
+}
+.overlay-04:after{
+	background: rgba(0,0,0,0.4);
+}
+.overlay-05:after{
+	background: rgba(0,0,0,0.5);
+}
+.overlay-06:after{
+	background: rgba(0,0,0,0.6);
+}
+.overlay-07:after{
+	background: rgba(0,0,0,0.7);
+}
+.overlay-08:after{
+	background: rgba(0,0,0,0.8);
+}
+.overlay-09:after{
+	background: rgba(0,0,0,0.9);
 }
