@@ -54,7 +54,7 @@ ul, li{
 	padding: 80px 20px;
 }
 
-.product-container{
+.products-container{
 	margin: 5px;
 	padding: 10px 15px;
 	text-align: center;
@@ -66,12 +66,27 @@ ul, li{
 
 .services-datas{
 	background: url("../images/night-road-background.jpg");
-	background-size: 100% auto;
+	background-size: 100% 100%;
 	height: 600px;
-	background-position: center bottom;
+	background-position: 0 0;
 }
 
 .datas-container{
 	z-index: 5;
 }
 
+/* Product */
+
+.product-section{
+	background: #3c3c3c;
+	padding: 30px;
+}
+
+.product-title-container{
+	margin-left: 25%;
+}
+
+.product-image{
+	background-size: cover;
+	width: 100%;
+}
