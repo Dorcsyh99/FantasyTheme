@@ -1087,3 +1087,19 @@
 .overlay-09:after{
 	background: rgba(0,0,0,0.9);
 }
+
+@media (max-width: 1024px){
+	.hide-on-mobile{
+		display: none;
+	}
+	.hide-on-desktop{
+		display: block;
+	}
+}
+
+.hide-on-mobile{
+	display: block;
+}
+.hide-on-desktop{
+	display: none;
+}

@@ -36,12 +36,12 @@
 
 	<nav>
 		<div class="header-fixed-bar">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-3 col-md-3">
 						<a href="#"><img class="header-logo" src="images/logo/ft-trans-logo.png"></a>
 					</div>
-					<div class="col-lg-9 col-md-9">
+					<div class="col-lg-9 col-md-9 hide-on-mobile">
 						<ul class="navbar">
 							<li class="nav-menu-point">HOME</li>
 							<li class="nav-menu-point">PRODUCTS</li>
@@ -50,6 +50,9 @@
 							<li class="nav-menu-point">TEAM</li>
 							<li class="nav-menu-point">CONTACT US</li>
 						</ul>
+					</div>
+					<div class="mobile-menu-bars hide-on-desktop abs">
+						<i class="fas fa-bars"></i>
 					</div>
 				</div>
 			</div>
@@ -61,7 +64,7 @@
 
 	<!-- ****** BACKGROUND ****** -->
 
-	<header>
+	<header id="home">
 		<img src="images/forest-background.jpeg" class="header-background">
 		<div class="abs centered-main-title perfect-centered-position">
 			<h1 class="font-xe text-s-2">Fantasy Theme</h1>
@@ -74,38 +77,28 @@
 
 	<!-- ****** PRODUCT CARDS ****** -->
 
-	<section class="products-section">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="products-container">
-						<h1>Product name</h1>
-						<hr class="product-line-hr m-top-50 m-bottom-50">
-						<p class="m-top-20 m-bottom-20">Text about the product</p>
-						<img class="circle-image img-small m-bottom-35 m-top-20" src="images/place-holder.png">
-						<br>
-						<a class="button product-button m-top-35 m-bottom-35" href="#">Show</a>
+	<section id="portfolio">
+		<div class="container p-left-30 p-right-30 p-top-30 p-bottom-30">
+			<div class="row p-top-30">
+				<div class="col-lg-4 col-xl-4">
+					<div class="portfolio-left-side">
+						<img class="m-left-50 m-bottom-40 portfolio-image" src="images/man.png">
+						<h5 class="m-top-10 font-ssm">HTML</h5>
+						<div class="progress" style="height: 13px">
+							  <div class="progress-bar  bg-success" style="width: 80%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">80%</div>
+						</div>
+						<h5 class="m-top-10 font-ssm">CSS</h5>
+						<div class="progress" style="height: 13px">
+							  <div class="progress-bar  bg-success" style="width: 92%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">92%</div>
+						</div>
+						<h5 class="m-top-10 font-ssm">JavaScript</h5>
+						<div class="progress" style="height: 13px">
+							  <div class="progress-bar  bg-success" style="width: 70%" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">70%</div>
+						</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="products-container">
-						<h1>Product name</h1>
-						<hr class="product-line-hr m-top-50 m-bottom-50">
-						<p class="m-top-20 m-bottom-20">Text about the product</p>
-						<img class="circle-image img-small m-bottom-35 m-top-20" src="images/place-holder.png">
-						<br>
-						<a class="button product-button m-top-35 m-bottom-35" href="#">Show</a>
-					</div>
-				</div>
-				<div class="col">
-					<div class="products-container">
-						<h1>Product name</h1>
-						<hr class="product-line-hr m-top-50 m-bottom-50">
-						<p class="m-top-20 m-bottom-20">Text about the product</p>
-						<img class="circle-image img-small m-bottom-35 m-top-20" src="images/place-holder.png">
-						<br>
-						<a class="button product-button m-top-35 m-bottom-35" href="#">Show</a>
-					</div>
+				<div class="col-lg-8 col-xl-8">
+					sdgfsd
 				</div>
 			</div>
 		</div>
@@ -115,59 +108,13 @@
 
 	<!-- ****** PRODUCTS ****** -->
 
-	<section class="rel">
-		<div class="services-datas overlay-06">
-		</div>
-		<div class="abs perfect-centered-position datas-container text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col data-column m-left-40 m-right-40 m-top-20 m-bottom-20">
-						<i class="fas fa-address-card fa-6x m-bottom-30"></i>
-						<p>Sed non risus sed neque luctus mollis. In imperdiet nisi felis, a imperdiet eros efficitur vitae. Morbi porta lobortis consequat.</p>
-					</div>
-					<div class="col data-column m-left-40 m-right-40 m-top-20 m-bottom-20">
-						<i class="fas fa-archive fa-6x m-bottom-30"></i>
-						<p>Sed non risus sed neque luctus mollis. In imperdiet nisi felis, a imperdiet eros efficitur vitae. Morbi porta lobortis consequat.</p>
-					</div>
-					<div class="col data-column m-left-40 m-right-40 m-top-20 m-bottom-20">
-						<i class="fas fa-power-off fa-6x m-bottom-30"></i>
-						<p>Sed non risus sed neque luctus mollis. In imperdiet nisi felis, a imperdiet eros efficitur vitae. Morbi porta lobortis consequat. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col data-column m-left-40 m-right-40 m-top-20 m-bottom-20">
-						<i class="fas fa-battery-full fa-6x m-bottom-30"></i>
-						<p>Sed non risus sed neque luctus mollis. In imperdiet nisi felis, a imperdiet eros efficitur vitae. Morbi porta lobortis consequat.</p>
-					</div>
-					<div class="col data-column m-left-40 m-right-40 m-top-20 m-bottom-20">
-						<i class="fas fa-anchor fa-6x m-bottom-30"></i>
-						<p>Sed non risus sed neque luctus mollis. In imperdiet nisi felis, a imperdiet eros efficitur vitae. Morbi porta lobortis consequat.</p>
-					</div>
-					<div class="col data-column m-left-40 m-right-40 m-top-20 m-bottom-20">
-						<i class="fas fa-archway fa-6x m-bottom-30"></i>
-						<p>Sed non risus sed neque luctus mollis. In imperdiet nisi felis, a imperdiet eros efficitur vitae. Morbi porta lobortis consequat.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<section></section>
 
 	<!-- ****** PRODUCTS END ****** -->
 
 	<!-- ****** PRODUCT ONE ****** -->
 
-	<section class="product-section">
-		<div class="product-title-container m-bottom-70">
-			<h1>Product title</h1>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<img class="product-image" src="images/product-1.jpg">
-				</div>
-			</div>
-		</div>
-	</section>
+	<section></section>
 
 	<!-- ****** PRODUCT ONE END ****** -->
 
